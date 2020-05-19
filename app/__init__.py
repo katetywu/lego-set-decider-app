@@ -6,7 +6,7 @@ from sklearn.neighbors import NearestNeighbors
 app = Flask(__name__)
 app.config.from_object(Config)
 
-df = pd.read_csv('lego_clean_data_GK_KGv2.csv')
+df = pd.read_csv('lego_data.csv')
 df['Year'] = df['Year'] - df['Year'].min()
 
 df_x = df[['piece_count', 'difficulty', 'star_rating', 'Year', 'Price']]
