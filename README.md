@@ -4,9 +4,6 @@ The Lego Set Decider App will help users decide what sets they would be interest
 # Data Source
 [Brickset](https://brickset.com/)
 
-# App Website
-[Lego Set Decider App](https://lego-set-decider-app.herokuapp.com/)
-
 # Contributor
 * [Kasey Geist](https://github.com/00geist00)
 * [Kate Wu](https://github.com/katetywu)
